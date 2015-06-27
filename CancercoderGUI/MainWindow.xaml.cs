@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 using System.IO;
 using System.Xml.Serialization;
 using Microsoft.Win32;
-using Gat.Controls;
+using System.Reflection;
 
 namespace CancercoderGUI
 {
@@ -76,21 +76,8 @@ namespace CancercoderGUI
 
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
-            BitmapImage appBi = new BitmapImage(new System.Uri("pack://application:,,,/AppLogo.bmp"));
-            BitmapImage cBi = new BitmapImage(new System.Uri("pack://application:,,,/cLogo.bmp"));
-
-            AboutControlView about = new AboutControlView();
-            AboutControlViewModel vm = (AboutControlViewModel)about.FindResource("ViewModel");
-            vm.IsSemanticVersioning = true;
-
-            // Setting several properties here
-            vm.ApplicationLogo = appBi;
-            vm.PublisherLogo = cBi;
-            vm.Title = "About CancercoderGUI";
-            vm.HyperlinkText = "http://animeftw.tv";
-
-            vm.Window.Content = about;
-            vm.Window.ShowDialog();
+            About AboutWindow = new About();
+            AboutWindow.ShowDialog();
         }
 
         private void btnBrowseOutput_Click(object sender, RoutedEventArgs e)

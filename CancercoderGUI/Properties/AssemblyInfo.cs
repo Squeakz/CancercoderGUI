@@ -7,11 +7,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CancercoderGUI")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Cancercoder GUI")]
+[assembly: AssemblyDescription("GUI frontend for Nikey's Cancercoder")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CancercoderGUI")]
+[assembly: AssemblyProduct("Cancercoder GUI")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

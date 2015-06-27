@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,9 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Reflection;
 
 namespace CancercoderGUI
 {
@@ -23,10 +26,73 @@ namespace CancercoderGUI
         {
             InitializeComponent();
         }
+        public static Version Version { get { return Assembly.GetCallingAssembly().GetName().Version; } }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public static string TitleName
         {
+            get
+            {
+                object[] attributes = Assembly.GetCallingAssembly().GetCustomAttributes(typeof(AssemblyTitleAttribute), false);
+                if (attributes.Length > 0)
+                {
+                    AssemblyTitleAttribute titleAttribute = (AssemblyTitleAttribute)attributes[0];
+                    if (titleAttribute.Title.Length > 0) return titleAttribute.Title;
+                }
+                return System.IO.Path.GetFileNameWithoutExtension(Assembly.GetExecutingAssembly().CodeBase);
+            }
+        }
 
+        public static string ProductName
+        {
+            get
+            {
+                object[] attributes = Assembly.GetCallingAssembly().GetCustomAttributes(typeof(AssemblyProductAttribute), false);
+                return attributes.Length == 0 ? "" : ((AssemblyProductAttribute)attributes[0]).Product;
+            }
+        }
+
+        public static string Description
+        {
+            get
+            {
+                object[] attributes = Assembly.GetCallingAssembly().GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false);
+                return attributes.Length == 0 ? "" : ((AssemblyDescriptionAttribute)attributes[0]).Description;
+            }
+        }
+
+        public static string CopyrightHolder
+        {
+            get
+            {
+                object[] attributes = Assembly.GetCallingAssembly().GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
+                return attributes.Length == 0 ? "" : ((AssemblyCopyrightAttribute)attributes[0]).Copyright;
+            }
+        }
+
+        public static string CompanyName
+        {
+            get
+            {
+                object[] attributes = Assembly.GetCallingAssembly().GetCustomAttributes(typeof(AssemblyCompanyAttribute), false);
+                return attributes.Length == 0 ? "" : ((AssemblyCompanyAttribute)attributes[0]).Company;
+            }
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            textTitle.Text = TitleName;
+            textDescription.Text = Description;
+            textVersion.Text = "Version:  " + Version;
+            textCopyright.Text = CopyrightHolder;
+        }
+        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri));
+            e.Handled = true;
+        }
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

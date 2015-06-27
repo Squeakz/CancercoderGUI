@@ -5,16 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CancercoderGUI"
         mc:Ignorable="d"
-        Title="About" Height="300" Width="400"
+        Title="About" Height="250" Width="450"
         WindowStyle="None"
         ShowInTaskbar="False"
-        AllowsTransparency="True">
-        
-    <Grid>
-        <Border BorderBrush="DarkGray"
-                BorderThickness="0,0,2,2"
-                Background="Gray">
+        AllowsTransparency="True"
+        Background="Transparent"
+        ResizeMode="NoResize" Loaded="Window_Loaded">
 
-        </Border>
+    <Grid Background="DarkGray">
+        <StackPanel HorizontalAlignment="Left" Height="150" Margin="10,10,0,0" VerticalAlignment="Top" Width="430">
+
+            <Image x:Name="image" Height="50" Margin="0,0,380,0" RenderTransformOrigin="0,0.5" Source="AppLogo.bmp"/>
+            <TextBlock x:Name="textTitle" Margin="75,-50,10,0" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="16" />
+            <TextBlock x:Name="textDescription" Margin="0,10,0,0" FontFamily="Comic Sans MS" Height="20"/>
+            <TextBlock x:Name="textVersion" Height="20" Margin="0" />
+            <TextBlock x:Name="textCopyright" Height="20" Margin="0" />
+            <TextBlock>
+                <Hyperlink NavigateUri="http://animeftw.tv" RequestNavigate="Hyperlink_RequestNavigate">
+                    http://animeftw.tv
+                </Hyperlink>
+            </TextBlock>
+
+        </StackPanel>
+        <Button x:Name="btnClose" Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="390,220,0,0" Click="btnClose_Click"/>
+
     </Grid>
 </Window>

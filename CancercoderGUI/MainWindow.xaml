@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CancercoderGUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="600">
+        Title="Cancercoder GUI" Height="350" Width="600">
     <Grid>
         <Menu x:Name="menuMain" VerticalAlignment="Top" Height="20">
             <MenuItem Header="File">
@@ -20,7 +20,7 @@
                 <MenuItem Header="About" Click="MenuItem_Click_3"/>
             </MenuItem>
         </Menu>
-        <ListBox x:Name="listFiles" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="275" Margin="309,161,0,0"/>
+        <ListBox x:Name="listFiles" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="275" Margin="307,159,0,0"/>
         <Label x:Name="labelOutput" Content="Output Folder..." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,25,0,0"/>
         <TextBox x:Name="textOutputFolder" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="494" Margin="10,51,0,0"/>
         <Button x:Name="btnBrowseOutput" Content="Browse" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="509,51,0,0" Height="23" Click="btnBrowseOutput_Click"/>
