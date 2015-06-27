@@ -47,7 +47,7 @@ namespace CancercoderGUI
 
             //  Set filter for file extension adn default file extension
             dlg.DefaultExt = "*.mkv";
-            dlg.Filter = "Video Files (*.mkv,*.avi,*.divx,*.ogm|*.mkv;*.avi;*.divx;*.ogm|All Files *.*|*.*";
+            dlg.Filter = "Video Files (*.mkv,*.mp4,*.avi,*.divx,*.ogm)|*.mkv;*.mp4;*.avi;*.divx;*.ogm|All Files *.*|*.*";
 
             // Display OpenFileDialog by calling ShowDialog method
             Nullable<bool> result = dlg.ShowDialog();

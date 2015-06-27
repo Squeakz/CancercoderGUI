@@ -15,3 +15,12 @@ c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\Can
 c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\Settings.g.cs
 c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\Settings.baml
 c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\bin\Debug\Gat.Controls.AboutBox.dll
+C:\Users\house\Documents\GitHubVisualStudio\CancercoderGUI\CancercoderGUI\bin\Debug\CancercoderGUI.exe.config
+C:\Users\house\Documents\GitHubVisualStudio\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI.exe
+C:\Users\house\Documents\GitHubVisualStudio\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI.pdb
+C:\Users\house\Documents\GitHubVisualStudio\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI.csprojResolveAssemblyReference.cache
+C:\Users\house\Documents\GitHubVisualStudio\CancercoderGUI\CancercoderGUI\obj\Debug\MainWindow.g.cs
+C:\Users\house\Documents\GitHubVisualStudio\CancercoderGUI\CancercoderGUI\obj\Debug\Settings.g.cs
+C:\Users\house\Documents\GitHubVisualStudio\CancercoderGUI\CancercoderGUI\obj\Debug\App.g.cs
+C:\Users\house\Documents\GitHubVisualStudio\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI_MarkupCompile.cache
+C:\Users\house\Documents\GitHubVisualStudio\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI_MarkupCompile.lref
