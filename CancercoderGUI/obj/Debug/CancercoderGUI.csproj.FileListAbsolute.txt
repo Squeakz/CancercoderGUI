@@ -1,0 +1,17 @@
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\bin\Debug\CancercoderGUI.exe.config
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\bin\Debug\CancercoderGUI.exe
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\bin\Debug\CancercoderGUI.pdb
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI.csprojResolveAssemblyReference.cache
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\MainWindow.g.cs
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\App.g.cs
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI_MarkupCompile.cache
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI_MarkupCompile.lref
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\MainWindow.baml
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI.g.resources
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI.Properties.Resources.resources
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI.csproj.GenerateResource.Cache
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI.exe
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\CancercoderGUI.pdb
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\Settings.g.cs
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\obj\Debug\Settings.baml
+c:\users\house\Onedrive\documents\visual studio 2015\Projects\CancercoderGUI\CancercoderGUI\bin\Debug\Gat.Controls.AboutBox.dll
